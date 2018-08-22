@@ -1,0 +1,33 @@
+{
+    "name": "bacol-snippets",
+    "displayName": "Bacol Snippets",
+    "description": "Pretty code snippets",
+    "version": "1.0.0",
+    "publisher": "npacucci",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "keywords": [
+        "snippets",
+        "typescript",
+        "arrow",
+        "arrow function",
+        "lambda",
+        "lambda expression"
+    ],
+    "galleryBanner": {
+        "color": "#00AC4E",
+        "theme": "dark"
+    }
+}

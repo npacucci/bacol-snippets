@@ -1,0 +1,11 @@
+{
+    "Arrow function": {
+		"prefix": "a>",
+		"body": [
+			"($1) => {",
+			"    $0",
+			"}"
+		],
+		"description": "Creates an arrow function"
+    }
+}
