@@ -5,7 +5,7 @@
     "version": "1.2.2",
     "publisher": "npacucci",
     "engines": {
-        "vscode": "^1.26.0"
+        "vscode": "^0.10.5"
     },
     "categories": [
         "Snippets"
