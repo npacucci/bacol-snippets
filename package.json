@@ -1,8 +1,8 @@
 {
     "name": "bacol-snippets",
-    "displayName": "Bacol Snippets",
+    "displayName": "Bacon Snippets",
     "description": "Pretty code snippets",
-    "version": "1.0.0",
+    "version": "1.2.2",
     "publisher": "npacucci",
     "engines": {
         "vscode": "^1.26.0"
@@ -34,8 +34,8 @@
         "lambda"
     ],
     "galleryBanner": {
-        "color": "#00AC4E",
+        "color": "#FF4C4C",
         "theme": "dark"
     },
-    "icon": "./images/nicolamatera.png"
+    "icon": "images/bacon.png"
 }

@@ -1,6 +1,6 @@
-# Bacol Snippets
+# Bacon Snippets
 
-Bacol snippets are very pretty code snippets.
+Bacon snippets are very pretty code snippets.
 
 ## Snippets
 
@@ -8,10 +8,10 @@ There is the list of available snippets:
 
 | Key | Result | Description | Languages |
 | --------- | ------ | --------- | ------ |
-| a> | ``` () => { } ``` | creates an arrow function | Typescript / Javascript
+| a> | ``` () => { } ``` | Creates an arrow function | Typescript / Javascript
 
 ## Usage
-To use the bacol snippets, install first the ``` bacol-snippets ``` extension.
+To use the bacon snippets, install first the ``` bacol-snippets ``` (called ``` Bacon Snippets ```) extension.
 After open the correct language file and use the TAB button to trigger the snippet.
 
 It's also recommended to set this custom vscode setting:
