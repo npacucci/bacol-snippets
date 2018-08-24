@@ -1,11 +1,29 @@
 {
-    "Arrow function": {
-			"prefix": "a>",
-			"body": [
-				"($1) => {",
-				"    $0",
-				"}"
-			],
-			"description": "Creates an arrow function"
-		}
+	"Arrow function": {
+		"prefix": "a>",
+		"body": [
+			"($1) => {",
+			"    $0",
+			"}"
+		],
+		"description": "Creates an arrow function."
+	},
+	"Promise": {
+		"prefix": "p>",
+		"body": [
+			"new Promise<${1:any}> ((resolve, reject) => {",
+			"    $0",
+			"});"
+		],
+		"description": "Creates a new promise."
+	},
+	"Promise (with variable)": {
+		"prefix": "p>>",
+		"body": [
+			"let ${1:promise} = new Promise<${2:any}> ((resolve, reject) => {",
+			"    $0",
+			"});"
+		],
+		"description": "Creates a new promise with variable."
+	}
 }

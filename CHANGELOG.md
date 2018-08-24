@@ -6,4 +6,6 @@
 
 1.2.3 - Update vscode compatibility (now from 0.10.5 version).
 
-1.3.0 - Update keywords
+1.3.0 - Update keywords.
+
+2.0.0 - Added promise snippets.

@@ -2,7 +2,7 @@
     "name": "bacol-snippets",
     "displayName": "Bacon Snippets",
     "description": "Pretty code snippets",
-    "version": "1.3.0",
+    "version": "2.0.0",
     "publisher": "npacucci",
     "engines": {
         "vscode": "^0.10.5"
