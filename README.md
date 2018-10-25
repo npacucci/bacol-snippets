@@ -3,13 +3,13 @@
 Bacon snippets are very pretty code snippets, based on EC6.
 
 ### String iterpolation examples:
-<img src="/gifs/stringinterpolation-snippet.gif" title="String interpolation">
+<img src="https://media.giphy.com/media/1qYhirOfgLjRSP6kH5/giphy.gif" title="String interpolation">
 
 ### Promise examples:
-<img src="/gifs/promise-snippet.gif" title="Promises">
+<img src="https://media.giphy.com/media/Lqx1g08cht2mL77HoP/giphy.gif" title="Promises">
 
 ### Arrow function example:
-<img src="/gifs/arrowfunction-snippet.gif" title="Arrow function">
+<img src="https://media.giphy.com/media/1BhGnRQhWyKrRm6SYc/giphy.gif" title="Arrow function">
 
 ## Snippets
 
