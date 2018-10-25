@@ -11,3 +11,5 @@
 2.0.0 - Added promise snippets.
 
 3.0.0 - Added interpolated string and variable inside an interpolated string snippets.
+
+3.0.1 - Updated gifs size.
