@@ -25,5 +25,19 @@
 			"});"
 		],
 		"description": "Creates a new promise with variable."
+	},
+	"Variable inside interpolated string": {
+		"prefix": "s>",
+		"body": [
+			"${$0}"
+		],
+		"description": "Creates an expression interpolation to use a variable inside of the interpolated string."
+	},
+	"Interpolated string": {
+		"prefix": "s>>",
+		"body": [
+			"`$1 ${$2} $0`"
+		],
+		"description": "Creates a new interpolated string."
 	}
 }
