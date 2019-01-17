@@ -17,11 +17,11 @@ There is the list of available snippets:
 
 | Key | Result | Description | Languages |
 | --------- | ------ | --------- | ------ |
-| a> | ``` () => { } ``` | Creates an arrow function | Typescript / JavaScript |
-| p> | ``` new Promise<any> ((resolve, reject) => { }); ``` | Creates a new promise | Typescript / JavaScript |
-| p>> | ``` let promise = new Promise<any> ((resolve, reject) => { }); ``` | Creates a new promise with variable | Typescript / JavaScript |
-| s> | ``` ${this.test} ``` | Creates an expression interpolation to use a variable inside of the interpolated string. | Typescript / JavaScript |
-| s>> | ``` `My ${this.subject} is awesome.` ``` | Creates a new interpolated string. | Typescript / JavaScript |
+| a> | ``` () => { } ``` | Creates an arrow function | TypeScript / JavaScript |
+| p> | ``` new Promise<any> ((resolve, reject) => { }); ``` | Creates a new promise | TypeScript / JavaScript |
+| p>> | ``` let promise = new Promise<any> ((resolve, reject) => { }); ``` | Creates a new promise with variable | TypeScript / JavaScript |
+| s> | ``` ${this.test} ``` | Creates an expression interpolation to use a variable inside of the interpolated string. | TypeScript / JavaScript |
+| s>> | ``` `My ${this.subject} is awesome.` ``` | Creates a new interpolated string. | TypeScript / JavaScript |
 
 ## Compatibility
 These snippets are based on [EC6][ec-6].
