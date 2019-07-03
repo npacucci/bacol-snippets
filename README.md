@@ -21,7 +21,12 @@ There is the list of available snippets:
 | p> | ``` new Promise<any> ((resolve, reject) => { }); ``` | Creates a new promise | Typescript / Javascript |
 | p>> | ``` let promise = new Promise<any> ((resolve, reject) => { }); ``` | Creates a new promise with variable | Typescript / Javascript |
 | s> | ``` ${this.test} ``` | Creates an expression interpolation to use a variable inside of the interpolated string. | Typescript / Javascript |
-| s>> | ``` `My ${this.subject} is awesome.` ``` | Creates a new interpolated string. | Typescript / Javascript |
+| s>> | ``` My ${this.subject} is awesome. ``` | Creates a new interpolated string. | Typescript / Javascript |
+| if-not-null | ``` if (this.variable != null) { } ``` | Creates a new if statement with null check. | Typescript / Javascript |
+| if-else-not-null | ``` if (this.variable != null) { } else { } ``` | Creates a new if statement with null and undefined check. | Typescript / Javascript |
+| if-in | ``` this.condition ? true : false ``` | Creates a new inline if/else statement. | Typescript / Javascript |
+| if-in-not-null | ``` this.condition != null ? true : false ``` | Creates a new inline if/else statement with null and undefined check. | Typescript / Javascript |
+| if-?? | ``` this.variable != null ? this.variable : false ``` | Creates a new inline if/else statement with null coalesce operator. Check null and undefined. | Typescript / Javascript |
 
 ## Compatibility
 These snippets are based on [EC6][ec-6].

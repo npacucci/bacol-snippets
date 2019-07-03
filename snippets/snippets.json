@@ -47,7 +47,7 @@
 			"  $0",
 			"}"
 		],
-		"description": "Creates a new if statement with null check."
+		"description": "Creates a new if statement with null and undefined check."
 	},
 	"if/else statement with null check": {
 		"prefix": "if-else-not-null",
@@ -59,7 +59,7 @@
 			"  $0",
 			"}"
 		],
-		"description": "Creates a new if statement with null check."
+		"description": "Creates a new if statement with null and undefined check."
 	},
 	"Inline if/else statement": {
 		"prefix": "if-in",
@@ -73,13 +73,13 @@
 		"body": [
 			"$1 != null ? $2 : $0"
 		],
-		"description": "Creates a new inline if/else statement with null check. Check null and undefined."
+		"description": "Creates a new inline if/else statement with null and undefined check."
 	},
 	"Null coalesce operator": {
 		"prefix": "if-??",
 		"body": [
 			"$1 != null ? $1 : $0"
 		],
-		"description": "Creates a new null coalesce operator. Check null and undefined."
+		"description": "Creates a new inline if/else statement with null coalesce operator. Check null and undefined."
 	}
 }
