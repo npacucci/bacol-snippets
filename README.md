@@ -1,6 +1,6 @@
 # Bacon Snippets
 
-Bacon snippets are very pretty code snippets, based on EC6.
+Bacon snippets are very pretty code snippets, based on ES6.
 
 ### String iterpolation examples:
 <img src="https://media.giphy.com/media/1qYhirOfgLjRSP6kH5/giphy.gif" title="String interpolation" width="500px">
@@ -29,7 +29,7 @@ There is the list of available snippets:
 | if-?? | ``` this.variable != null ? this.variable : false ``` | Creates a new inline if/else statement with null coalesce operator. Check null and undefined. | Typescript / Javascript |
 
 ## Compatibility
-These snippets are based on [EC6][ec-6].
+These snippets are based on [ES6][es-6].
 
 
 ## Usage
@@ -49,4 +49,4 @@ This is the [repository][git-repo-url]
 
 
    [git-repo-url]: <https://github.com/npacucci/bacol-snippets>
-   [ec-6]: <http://es6-features.org/#TypedArrays>
+   [es-6]: <http://es6-features.org/#TypedArrays>
