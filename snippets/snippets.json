@@ -39,5 +39,47 @@
 			"`$1 ${$2} $0`"
 		],
 		"description": "Creates a new interpolated string."
+	},
+	"if statement with null check": {
+		"prefix": "if-not-null",
+		"body": [
+			"if ($1 != null) {",
+			"  $0",
+			"}"
+		],
+		"description": "Creates a new if statement with null and undefined check."
+	},
+	"if/else statement with null check": {
+		"prefix": "if-else-not-null",
+		"body": [
+			"if ($1 != null) {",
+			"  $2",
+			"}",
+			"else {",
+			"  $0",
+			"}"
+		],
+		"description": "Creates a new if statement with null and undefined check."
+	},
+	"Inline if/else statement": {
+		"prefix": "if-in",
+		"body": [
+			"$1 ? $2 : $0"
+		],
+		"description": "Creates a new inline if/else statement."
+	},
+	"Inline if/else statement with null check": {
+		"prefix": "if-in-not-null",
+		"body": [
+			"$1 != null ? $2 : $0"
+		],
+		"description": "Creates a new inline if/else statement with null and undefined check."
+	},
+	"Null coalesce operator": {
+		"prefix": "if-??",
+		"body": [
+			"$1 != null ? $1 : $0"
+		],
+		"description": "Creates a new inline if/else statement with null coalesce operator. Check null and undefined."
 	}
 }
